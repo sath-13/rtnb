@@ -10,7 +10,9 @@
     "stop": "pm2 stop index",
     "log": "pm2 logs reteamnow-backend",
     "restart": "pm2 restart reteamnow-backend",
-    "deploy": "npm install && npm run build && npm run restart"
+    "deploy": "npm install && npm run build && npm run restart",
+    "dev_start": "npm install && export NODE_ENV=dev && pm2 start index.js"
+
   },
   "keywords": [],
   "author": "",
