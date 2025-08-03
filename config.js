@@ -8,7 +8,7 @@ dotEnv.config({
 });
 const config = {
 	NODE_ENV: process.env.NODE_ENV || 'dev',
-    PORT: process.env.PORT || 8017,
+    PORT: process.env.PORT || 8011,
     BACKEND_API_URL: process.env.BACKEND_API_URL,
     MONGO_URI: process.env.MONGO_URI || '',
     JWT_LIFETIME: process.env.JWT_LIFETIME || 90,
