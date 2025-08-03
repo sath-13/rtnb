@@ -1,0 +1,7 @@
+.env
+.env.local
+.env.dev
+node_modules
+pm2.json
+package-lock.json
+pnpm-lock.yaml
